@@ -125,7 +125,10 @@ $dirs = [];
 foreach ($dir as $fileinfo) {
     if (!$fileinfo->isDot()) {
         if ($fileinfo->isDir()) {
-            $dirs[] = $fileinfo->getFilename();
+            $name = $fileinfo->getFilename();
+            if ($name != ".git") {
+                $dirs[] = $name;
+            }
         }
     }
 }
