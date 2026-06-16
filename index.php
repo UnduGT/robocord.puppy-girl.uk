@@ -11,6 +11,7 @@ $user_colours = array(
     "hotdog"        => array("#cd2547", "#050505"),
     "acerx"         => array("#9d59b8"),
     "kotnik"        => array("#55165e", "#18848e"),
+    "luki"          => array("#ff0000"),
 );
 ?>
 <!DOCTYPE html>
