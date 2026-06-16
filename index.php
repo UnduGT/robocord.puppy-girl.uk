@@ -9,7 +9,8 @@ $user_colours = array(
     "aurora"        => array("#FF8FAB"),
     "scaredy"       => array("#f4a4cc"),
     "hotdog"        => array("#cd2547", "#050505"),
-    "acerx"         => array("#9d59b8")
+    "acerx"         => array("#9d59b8"),
+    "kotnik"        => array("#55165e", "#18848e"),
 );
 ?>
 <!DOCTYPE html>
@@ -22,6 +23,11 @@ $user_colours = array(
     <meta property="og:image" content="https://robocord.puppy-girl.uk/voidpointer/2026-05-12_00-51_4.png">
     <meta name="theme-color" content="#7289da">
     <style>
+        html {
+            -moz-text-size-adjust: none;
+            -webkit-text-size-adjust: none;
+            text-size-adjust: none;
+        }
         body {
             background-color: #0a0a0a;
         }
@@ -43,13 +49,13 @@ $user_colours = array(
         }
         .hb {
             color: #ff91ff; 
-            width: fit-content; 
+            width: fit-content;
             margin: auto; 
             padding: 5px
         }
         .name {
             color: #ffffff;
-            width: fit-content; 
+            width: fit-content;
             margin: auto; 
             font-size: 33px; 
             padding-bottom:1%;
