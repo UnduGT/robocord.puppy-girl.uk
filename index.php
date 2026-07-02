@@ -11,17 +11,18 @@ $user_colours = array(
     "hotdog"        => array("#cd2547", "#050505"),
     "acerx"         => array("#9d59b8"),
     "kotnik"        => array("#55165e", "#18848e"),
-    "luki"          => array("#ff0000"),
+    "luki"          => array("#fccafd"),
+    "atoms"         => array("#ff0000"),
 );
 ?>
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Robocord exposed</title>
-    <meta property="og:title" content="Robocord exposed.">
+    <title>Robocord being silly.</title>
+    <meta property="og:title" content="Robocord being silly.">
     <meta property="og:description" content="People from the Robopup Party Discord server saying unhinged things">
     <meta property="og:url" content="https://robocord.puppy-girl.uk">
-    <meta property="og:image" content="https://robocord.puppy-girl.uk/voidpointer/2026-05-12_00-51_4.png">
+    <meta property="og:image" content="https://robocord.puppy-girl.uk/voidpointer/2026-06-23_14-02.png">
     <meta name="theme-color" content="#7289da">
     <style>
         html {
@@ -75,6 +76,20 @@ $user_colours = array(
             scale: 1.1; 
             background-color: #5865f2;
         }
+        .sourcecode {
+            border: solid 2px #545454;
+            border-radius: 10px;
+            padding: 8px;
+            background-color: #af0fafff;
+            color: #ffffff;
+            user-select: none;
+            text-decoration: none;
+        }
+        .sourcecode:hover {
+            transition: 0.2s; 
+            scale: 1.1; 
+            background-color: #ce32ceff;
+        }
         .user {
             background-color: #252525;
             border: solid 4px #545454;
@@ -112,6 +127,8 @@ $user_colours = array(
 </head>
 <body>
     <a class="servr" href="https://discord.com/invite/robopup">The server :3</a>
+    <br>
+    <a class="sourcecode" href="https://github.com/lenanya/robocord.puppy-girl.uk">Source Code!</a>
     <br>
     <p class="hb">Happy birthday, kotnik</p>
     <br>
