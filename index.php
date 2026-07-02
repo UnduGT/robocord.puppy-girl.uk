@@ -157,7 +157,7 @@ $user_colours = array(
         }
         .menu_user {
             box-sizing: border-box;
-            background-color: rgba(255, 255, 255, 0.2); 
+            background-color: rgba(255, 255, 255, 0.05); 
             backdrop-filter: blur(4px);
             padding: 25px 4em;
             user-select: none;
