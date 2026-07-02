@@ -26,24 +26,18 @@ $user_colours = array(
     <meta name="theme-color" content="#7289da">
     <style>
         ::-webkit-scrollbar {
-            width: 12px;  /* Width of vertical scrollbars */
-            height: 12px; /* Height of horizontal scrollbars */
+            width: 12px;
+            height: 12px;
         }
-
-        /* 2. The background track */
         ::-webkit-scrollbar-track {
             background: #f3f4f6; 
             border-radius: 6px;
         }
-
-        /* 3. The moving draggable handle */
         ::-webkit-scrollbar-thumb {
             background: #6366f1; 
             border-radius: 6px;
-            border: 3px solid #f3f4f6; /* Creates padding around the thumb */
+            border: 3px solid #f3f4f6;
         }
-
-        /* 4. Handle behavior on hover */
         ::-webkit-scrollbar-thumb:hover {
             background: #4f46e5; 
         }
